@@ -29,8 +29,7 @@ function MainPage(){
         }
         setValuteArray(array)
     }
-
-
+ 
     function changeValuteBase(e){
         setValuteBase(e.target.value)
         const baseIndex = valuteArray.findIndex(item => item.CharCode === e.target.value)
